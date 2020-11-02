@@ -1,6 +1,6 @@
 require "discordrb"
 
-# client id: https://discordapp.com/oauth2/authorize?client_id=772824132161110016&scope=bot&permissions=0
+# Invite URL: https://discordapp.com/oauth2/authorize?client_id=772824132161110016&scope=bot&permissions=0
 bot = Discordrb::Bot.new token: ENV["DISCORD_TOKEN"]
 
 bot.message do |event|
